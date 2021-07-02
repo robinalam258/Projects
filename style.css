@@ -17,7 +17,7 @@ h1{
 
 }
 .half-width img{
-    width:100%;
+    width:85%;
 
     
 }
@@ -26,7 +26,7 @@ section{
     
 }
 
-.top-banner{
+.top-banner {
     background-image: url("image/header-bg.png");
     background-size: cover;
     padding:100px;
@@ -44,7 +44,57 @@ section{
 .dream-area{
     background-image: url("image/biography-bg.png");
     background-size: cover;
-    padding:120px;
-    height:700px;
+    padding:2px;
+    height:800px;
+ 
+}
+
+.latest-work{
+    text-align: center;
+}
+
+.work-one {
+    width:20%;
+    float: left;
+    margin-left:1%;
+    padding-left: 5%;
+    margin-top: 80px;
     
+}
+.work-one img{
+    width:100%;
+    
+}
+.recent-work{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height:900px;
+
+}
+   footer{
+       width:100%;
+       text-align: center;
+       margin:0 ;
+       position: absolute;
+       top:300%;
+       
+   }
+.button2{
+    color:cornsilk;
+    text-decoration: none;
+    background-color: brown;
+    border:2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.fotter-area{
+    background-image: url("image/biography-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.bruce-mocy{
+    margin-top:200px;
 }
